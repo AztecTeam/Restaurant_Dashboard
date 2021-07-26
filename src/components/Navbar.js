@@ -17,6 +17,9 @@ function Navbar() {
     if( window.location.pathname === '/register') {
         return null;
     }
+    if( window.location.pathname === '/55') {
+        return null;
+    }
     
    
 
