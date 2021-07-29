@@ -40,7 +40,7 @@ async function handleSubmit(e){
         <div class="txt_field">
           <input ref = {emailRef} type="email" required/>
           <span></span>
-          <label>Username</label>
+          <label>Email</label>
         </div>
         <div class="txt_field">
           <input ref = {passwordRef} type="password" required/>
@@ -50,7 +50,7 @@ async function handleSubmit(e){
         <div class="pass">.</div>
         <input type="submit" value="Login" disabled = {loading} />
         <div class="signup_link">
-          Not a member? <a href="#">Signup</a>
+          Not a member? <a href="#">SignUp</a>
         </div>
       </form>
     </div>

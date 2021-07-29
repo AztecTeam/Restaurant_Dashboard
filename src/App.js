@@ -26,7 +26,7 @@ function App() {
         <AuthProvider>
             <Switch>
               <>
-                <Navbar/>
+                
                 <Route path = '/55' component = {Testsignup}/>
                 <Route path = '/56' component = {TestLogin}/>
                 <Route path = '/' exact component = {Login}/>
