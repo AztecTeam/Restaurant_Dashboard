@@ -190,3 +190,12 @@
     background-size: cover;
     background-position: center;
   }
+
+  table, th, td {
+    width: 55%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top: 90px;
+    size: 100px;
+  }
+ 

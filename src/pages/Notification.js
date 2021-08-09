@@ -6,14 +6,12 @@ import Navbar from '../components/Navbar'
 function Notification() {
     
     return (
-        <div>
-         <Navbar/>
+    <div>
+        <Navbar/>
         <div className = 'Notification'>
-        
-     
-            <h1>Notification</h1>
+             <h1>Notification</h1>
         </div>
-        </div>
+    </div>
     )
 }
 

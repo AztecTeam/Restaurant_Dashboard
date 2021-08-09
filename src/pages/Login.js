@@ -51,7 +51,7 @@ async function handleSubmit(e){
         <input type="submit" value="Login" disabled = {loading} />
         <div class="signup_link">
           Not a member? <a href="#">SignUp</a>
-        </div>
+        </div> 
       </form>
     </div>
   </div>
