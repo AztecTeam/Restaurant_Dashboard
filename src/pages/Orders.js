@@ -1,18 +1,20 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Test from '../Testfirebase'
+import Clock from './time'
 
 
 
 function Orders() {
     
     return (
-    <div>
+        <div>
+       
          <Navbar/>
-        <div className = 'orders'>
-        
-     <h1>Orders</h1>
+         <h1>Recent Orders</h1>
+         <Test/>
+       
         </div>
-    </div>
     )
 }
 

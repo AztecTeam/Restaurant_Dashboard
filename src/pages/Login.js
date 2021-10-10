@@ -27,7 +27,7 @@ async function handleSubmit(e){
         setError('Failed to sign in')
     }
     setLoading(false)
-}
+}  
 
 
 
@@ -50,7 +50,7 @@ async function handleSubmit(e){
         <div class="pass">.</div>
         <input type="submit" value="Login" disabled = {loading} />
         <div class="signup_link">
-          Not a member? <a href="#">SignUp</a>
+         
         </div> 
       </form>
     </div>

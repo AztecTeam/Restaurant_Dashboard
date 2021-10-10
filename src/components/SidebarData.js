@@ -18,19 +18,9 @@ export const SidebarData = [
         cName : 'nav-text'
     },
 
-    {
-        title : 'Notifications',
-        path : '/notifications',
-        icon : <IoIcons.IoMdNotifications/>,
-        cName : 'nav-text'
-    },
+    
 
-    {
-        title : 'Notify',
-        path : '/notify',
-        icon : <IoIcons.IoMdSend/>,
-        cName : 'nav-text'
-    },
+    
     {
         title : 'Logout',
         path : '/',
